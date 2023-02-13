@@ -1,0 +1,15 @@
+.container{
+    @apply grid content-center items-center justify-center min-h-screen;
+
+    .card_wrapper{
+        @apply py-20 px-8;
+
+        img {
+            @apply w-full h-full;
+        }
+
+        .head_info{
+            @apply justify-center grid mt-6 space-y-1.5;
+        }
+    }
+}

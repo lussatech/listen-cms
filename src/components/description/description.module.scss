@@ -1,0 +1,51 @@
+.description{
+    @apply tracking-[0.3px];
+}
+
+.s_xs{
+    @apply text-xs;
+}
+
+.s_sm {
+    @apply text-sm;
+}
+
+.s_base{
+    @apply text-base;
+}
+
+.c_gray{
+    @apply text-main-25;
+}
+
+.c_main{
+    @apply text-main-100;
+}
+
+.c_primary{
+    @apply text-primary-100;
+}
+
+.c_error{
+    @apply text-error-100;
+}
+
+.c_success{
+    @apply text-success-100;
+}
+
+.c_warning{
+    @apply text-warning-100;
+}
+
+.ta_center{
+    @apply text-center;
+}
+
+.ta_left {
+    @apply text-left;
+}
+
+.ta_right {
+    @apply text-right;
+}

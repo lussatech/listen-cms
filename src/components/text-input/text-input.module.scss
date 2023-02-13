@@ -1,0 +1,35 @@
+.text_input_wrapper{
+    @apply grid;
+
+    label{
+        @apply text-xs mb-1 text-main-50;
+    }
+
+    span{
+        @apply -mb-1 flex justify-end text-xs text-error-50 mt-1;
+    }
+
+    input{
+        @apply rounded-lg text-sm text-main-100 leading-5 w-full;
+
+        &.d_normal{
+            @apply py-2.5 px-4;
+        }
+
+        &.i_main{
+            @apply border border-main--50
+        }
+
+        &.i_success {
+            @apply border border-success-50
+        }
+
+        &.i_warning {
+            @apply border border-warning-50
+        }
+
+        &.i_error {
+            @apply border border-error-50
+        }
+    }
+}

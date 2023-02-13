@@ -1,0 +1,49 @@
+.btn{
+
+    @apply w-full rounded-full;
+
+    &.i_primary_border{
+        @apply border border-primary-50 text-primary-50;
+    }
+
+    &.i_success_border {
+        @apply border border-success-50 text-success-50;
+    }
+
+    &.i_warning_border {
+        @apply border border-warning-50 text-warning-50;
+    }
+
+    &.i_error_border {
+        @apply border border-error-50 text-error-50;
+    }
+
+    &.d_normal{
+        @apply py-2.5 font-medium text-base;
+    }
+
+    &.cv_primary {
+        @apply bg-primary-50;
+    }
+
+    &.cv_success {
+        @apply bg-success-50;
+    }
+
+    &.cv_warning {
+        @apply bg-warning-50;
+    }
+
+    &.cv_error {
+        @apply bg-error-50;
+    }
+
+    &.btn_shadow {
+        box-shadow: 0px 4px 12px rgba(116, 116, 116, 0.25);
+    }
+
+    &.txt_white{
+        @apply text-white;
+    }
+
+}

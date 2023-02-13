@@ -1,0 +1,15 @@
+.container{
+    @apply grid content-center items-center justify-center min-h-screen;
+
+    .card_wrapper{
+        @apply p-4;
+
+        .head_info{
+            @apply justify-center grid mt-6 space-y-1.5;
+        }
+
+        button{
+            @apply mt-12;
+        }
+    }
+}

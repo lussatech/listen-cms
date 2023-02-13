@@ -1,0 +1,39 @@
+h1.title{
+    @apply font-semibold text-2xl leading-9;
+}
+
+h2.title {
+    @apply font-semibold text-xl leading-9;
+}
+
+.c_main{
+    @apply text-main-100;
+}
+
+.c_primary{
+    @apply text-primary-100;
+}
+
+.c_error{
+    @apply text-error-100;
+}
+
+.c_success{
+    @apply text-success-100;
+}
+
+.c_warning{
+    @apply text-warning-100;
+}
+
+.ta_center{
+    @apply text-center;
+}
+
+.ta_left {
+    @apply text-left;
+}
+
+.ta_right {
+    @apply text-right;
+}
