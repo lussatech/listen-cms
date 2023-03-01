@@ -1,1 +1,6 @@
-export {default as TimesIcon} from './times.icon'
+export { default as TimesIcon } from './times.icon'
+export { default as UserIcon } from './user.icon'
+export { default as TreeIcon } from './tree.icon'
+export { default as CogIcon } from './cog.icon'
+export { default as ClockIcon } from './clock.icon'
+export {default as ArrowLeftIcon } from './arrow-left.icon'
